@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testdatamarqqqq.Testtask3">
+		  <methods>
+			  <include name="ola"/>
+			  <include name="bookmyshow"/>
+			  <include name="hondajoyclub"/>
+			  </methods>
+	  </class>
+		  
+		  
+      <class name="testdatamarqqqq.Testtask2">
+		  <methods>
+			  <include name="shopsy"/>
+			  <include name="blabla"/>
+			  <include name="slice"/>
+			  </methods>
+		  
+      </class>
+      <class name="testdatamarqqqq.Testtask1">
+		  <methods>
+			  <include name="jiocinema"/>
+			  <include name="spotify"/>
+			  <include name="aha"/>
+			  </methods>
+		  
+      </class> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
